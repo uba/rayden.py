@@ -1,5 +1,5 @@
 # rayden.py
-Rayden - Simple Python Ray Tracing
+⚡ Rayden - Simple Python Ray Tracing
 
 ## Features
 - **Geometry**: Sphere, Plane, Triangle, Torus
