@@ -40,66 +40,64 @@ optional arguments:
 ```
 rayden.py -s ./scenes/red-sphere.json -o ./results/red-sphere.png
 ```
-![](results/red-sphere.png)
+<img src="results/red-sphere.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/red-sphere-shadow.json
 ```
-![](results/red-sphere-shadow.png)
+<img src="results/red-sphere-shadow.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/hello-rayden.json
 ```
-![](results/hello-rayden.png)
+<img src="results/hello-rayden.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 4
 ```
-![](results/hello-rayden-4px.png)
+<img src="results/hello-rayden-4px.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16
 ```
-![](results/hello-rayden-16px.png)
+<img src="results/hello-rayden-16px.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16 --samplesPerShadow 4
 ```
-![](results/hello-rayden-16px-4shadow.png)
+<img src="results/hello-rayden-16px-4shadow.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16 --samplesPerShadow 4 --depthComplexity 8
 ```
-![](results/hello-rayden-16px-4shadow-8depth.png)
+<img src="results/hello-rayden-16px-4shadow-8depth.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16 --samplesPerShadow 4 --depthComplexity 8 --dispersion 10
 ```
-![](results/hello-rayden-16px-4shadow-8depth-10dispersion.png)
+<img src="results/hello-rayden-16px-4shadow-8depth-10dispersion.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16 --samplesPerShadow 4 --depthComplexity 8 --dispersion 16
 ```
-![](results/hello-rayden-16px-4shadow-8depth-16dispersion.png)
+<img src="results/hello-rayden-16px-4shadow-8depth-16dispersion.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/pyramid.json
 ```
-![](results/pyramid.png)
+<img src="results/pyramid.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/torus.json
 ```
-![](results/torus.png)
+<img src="results/torus.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/torus-mirror.json
 ```
-![](results/torus-mirror.png)
+<img src="results/torus-mirror.png" width="256px"/>
 
 ```
 rayden.py -s ./scenes/torus-glass.json
 ```
-![](results/torus-glass.png)
-
-
+<img src="results/torus-glass.png" width="256px"/>
