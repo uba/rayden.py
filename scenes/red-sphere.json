@@ -1,0 +1,30 @@
+{
+  "ambient": [0.0, 0.0, 0.0],
+  "camera": {
+    "eye": [0.0, 0.5, -2.0],
+    "lookAt": [0.0, 0.0, 1.0],
+    "up": [0.0, 1.0, 0.0],
+    "width": 512,
+    "height": 512
+  },
+  "lights": [{
+    "type": "point",
+    "watts": 100,
+    "color": "white",
+    "position": [-3.0, 1.0, 0.0]
+  },
+  {
+    "type": "point",
+    "watts": 100,
+    "color": "white",
+    "position": [2.0, 2.5, -1.0]
+  }],
+  "objects": [{
+    "type": "sphere",
+    "center": [0.0, 0.0, 1.0],
+    "radius": 1.0,
+    "material": {
+      "diffuse": [0.7, 0.0, 0.0]
+    }
+  }]
+}

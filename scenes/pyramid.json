@@ -1,0 +1,87 @@
+{
+  "ambient": [0.0, 0.0, 0.0],
+  "camera": {
+    "eye": [0.0, 0.0, -1.2],
+    "lookAt": [0.0, 0.0, 1.0],
+    "up": [0.0, 1.0, 0.0],
+    "width": 512,
+    "height": 512
+  },
+  "lights": [{
+    "type": "area",
+    "watts": 100,
+    "color": "white",
+    "v1": [-0.5, 1.5, -1.0],
+    "v2": [-0.5, 1.5, 0.0],
+    "v3": [-1.0, 1.5, 0.0],
+    "v4": [-1.0, 1.5, -1.0]
+  },
+  {
+    "type": "area",
+    "watts": 30,
+    "color": "white",
+    "v1": [-1.5, 4.5, 1.0],
+    "v2": [-1.5, 4.5, 1.5],
+    "v3": [-2.0, 4.5, 1.5],
+    "v4": [-2.0, 4.5, 1.0]
+  }],
+  "objects": [{
+    "type": "triangle",
+    "a": [0.0, -1.0, 1.0],
+    "b": [1.2, -1.0, 2.0],
+    "c": [0.0, 1.2, 1.0],
+    "material": {
+      "diffuse": [0.0, 0.7, 0.0],
+      "reflectivity": 0.3
+    }
+  },
+  {
+    "type": "triangle",
+    "a": [0.0, -1.0, 1.0],
+    "b": [0.0, 1.2, 1.0],
+    "c": [-1.2, -1.0, 2.0],
+    "material": {
+      "diffuse": [0.0, 0.3, 0.7],
+      "specular": [0.1, 0.1, 0.3],
+      "shininess": 100.0,
+      "reflectivity": 0.8
+    }
+  },
+  {
+    "type": "sphere",
+    "center": [-1.3, -0.8, 1.2],
+    "radius": 0.2,
+    "material": {
+      "diffuse": [0.0, 0.5, 0.5],
+      "specular": [0.1, 0.1, 0.1],
+      "shininess": 1.0
+    }
+  },
+  {
+    "type": "sphere",
+    "center": [1.0, -0.7, 0.8],
+    "radius": 0.3,
+    "material": {
+      "diffuse": [0.5, 0.5, 0.0],
+      "specular": [0.1, 0.1, 0.1],
+      "shininess": 1.0
+    }
+  },
+  {
+    "type": "plane",
+    "normal": [0.0, 1.0, 0.0],
+    "distance": 1.0,
+    "material": {
+      "diffuse": [0.5, 0.5, 0.5],
+      "reflectivity": 0.08
+    }
+  },
+  {
+    "type": "plane",
+    "normal": [0.0, 0.0, -1.0],
+    "distance": 4.5,
+    "material": {
+      "diffuse": "RoyalBlue"
+    }
+  }]
+}
