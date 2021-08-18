@@ -35,3 +35,71 @@ optional arguments:
                         Dispersion (depth of field)
   --phong               Use classical Phong for specular component. Blinn-Phong, otherwise.
 ```
+
+## Examples                                                 
+```
+rayden.py -s ./scenes/red-sphere.json -o ./results/red-sphere.png
+```
+![](results/red-sphere.png)
+
+```
+rayden.py -s ./scenes/red-sphere-shadow.json
+```
+![](results/red-sphere-shadow.png)
+
+```
+rayden.py -s ./scenes/hello-rayden.json
+```
+![](results/hello-rayden.png)
+
+```
+rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 4
+```
+![](results/hello-rayden-4px.png)
+
+```
+rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16
+```
+![](results/hello-rayden-16px.png)
+
+```
+rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16 --samplesPerShadow 4
+```
+![](results/hello-rayden-16px-4shadow.png)
+
+```
+rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16 --samplesPerShadow 4 --depthComplexity 8
+```
+![](results/hello-rayden-16px-4shadow-8depth.png)
+
+```
+rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16 --samplesPerShadow 4 --depthComplexity 8 --dispersion 10
+```
+![](results/hello-rayden-16px-4shadow-8depth-10dispersion.png)
+
+```
+rayden.py -s ./scenes/hello-rayden.json --samplesPerPixel 16 --samplesPerShadow 4 --depthComplexity 8 --dispersion 16
+```
+![](results/hello-rayden-16px-4shadow-8depth-16dispersion.png)
+
+```
+rayden.py -s ./scenes/pyramid.json
+```
+![](results/pyramid.png)
+
+```
+rayden.py -s ./scenes/torus.json
+```
+![](results/torus.png)
+
+```
+rayden.py -s ./scenes/torus-mirror.json
+```
+![](results/torus-mirror.png)
+
+```
+rayden.py -s ./scenes/torus-glass.json
+```
+![](results/torus-glass.png)
+
+
