@@ -10,6 +10,7 @@ Rayden - Simple Python Ray Tracing
 - Scene description from JSON file
 - Using *numpy* and *multiprocessing*.
 - FQS - Fast Quartic and Cubic solver (https://github.com/NKrvavica/fqs) for computing roots of a quartic equation (torus intersection)
+- 2D, 3D and 4D Simplex Noise functions from https://github.com/dangillet/space_tactical/blob/master/simplexnoise.py
 
 ## Usage
 ```
